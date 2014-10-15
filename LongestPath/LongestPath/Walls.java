@@ -1,12 +1,12 @@
-package NewSnake;
+package LongestPath;
 
 public class Walls {
 
-	int MAX_NUMBER_OF_ELEMENTS = 300;
+	int MAX_NUMBER_OF_ELEMENTS = 900;
 	int size = 0;
 	Coordinate[] grid = new Coordinate[MAX_NUMBER_OF_ELEMENTS];
 
-	void addCoordinateToBack(Coordinate coordinate) {
+	void addWall(Coordinate coordinate) {
 		grid[size] = coordinate;
 		size++;
 	}

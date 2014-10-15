@@ -1,4 +1,4 @@
-package NewSnake;
+package LongestPath;
 
 public class Coordinate {
 	int x,y;
